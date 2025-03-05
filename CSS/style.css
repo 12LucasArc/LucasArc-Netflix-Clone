@@ -156,6 +156,9 @@ input{
     margin-bottom: 5px;
 }
 
+.icon-r{
+    margin-left: 155px;
+}
 .row-join{
     height: 350px;
 }
@@ -169,7 +172,7 @@ input{
 
 .join-layout-container{
     background-color: #1e1320;
-    border: 1px solid black;
+    border: 7px solid black;
     border-radius: 15px;
     
 }
