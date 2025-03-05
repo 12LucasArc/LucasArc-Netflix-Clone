@@ -1,0 +1,393 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+                Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.background-image{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url(/Assets/Netflix\ Background\ Image.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+/* Nav-section */
+
+.netflix-logo{
+    height: 140px;
+    width: 140px;
+}
+
+.sign-in-button{
+    background-color: #d22f27;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-in-button:hover{
+    background-color:#a52620;
+    transition: 0.2s ease;
+}
+
+.sign-in{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+
+/* main-section */
+
+body{
+    background-color: black;
+    color:white;
+}
+
+header{
+    padding: 0px 148px 0px 148px;
+    margin-bottom: 50px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.main{
+    padding: 0px 148px 0px 148px;
+    
+}
+
+.main-content-section{
+    padding-bottom: 32px;
+}
+
+.main-content-container{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.unlimited-movies{
+    width: 590px;
+    line-height: 125%; 
+    font-size: 50px;
+    font-weight: 950;
+    margin-bottom: 20px;
+}
+
+.start{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+
+.content-form-container{
+    margin: auto;
+    margin-left: 180px;
+    width: 80%;
+    
+}
+
+.content-form-text{
+    width: 70%;
+}
+
+.content-form-text h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.watch{
+    margin: auto;
+    width: 60%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.header-sign-up{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    width: 642px;
+    align-items: center; 
+
+}
+
+input{
+    width: 380px;
+    height: 56px;
+}
+
+.get-started{
+    background-color:#d22f27;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 255px;
+    height: 56px;
+    font-size: 1.5rem;
+    font-weight: 510;
+    cursor: pointer;
+    
+}
+
+/* trending section */
+
+.trending{
+    padding: 0px 148px 0px 148px;
+}
+
+
+/* reasons-sections */
+
+.join-text{
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.row-join{
+    height: 350px;
+}
+
+.join-layout{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.join-layout-container{
+    background-color: #1e1320;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+
+.reason-header{
+    font-size: 24px;
+    color: white;
+    margin-top: 16px;
+    padding-left: 15px;
+}
+
+.reason-content{
+    font-size: 16px;
+    color: #b3b3ba;
+    margin-top: 16px;
+    padding: 24px 16px 128px 16px;
+}
+
+#television-small{
+    position: absolute;
+    right: 0px;
+}
+
+/* FAQs section */
+
+#plus-icon{
+    position: absolute;
+    right: 200px;
+    font-size: larger;
+}
+
+div.faq{
+    padding: 70px 30px;
+}
+
+div.faq h1{
+    font-size: 3.125rem;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+div.questions{
+    max-width: 900px;
+    font-size: 1.625rem;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+
+div.question{
+    background-color: #303030;
+    margin-bottom: 10px;
+
+}
+
+div.question:hover{
+    background-color: #a52620;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+
+div.question .header{
+    display: block;
+    padding: 20px 30px;
+    height: 80px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+div.question div.answer{
+    padding: 0 30px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+
+}
+
+div.question input[type="checkbox"]{
+    display: none;
+}
+
+.div.question input[type="checkbox"]:checked + div.answer{
+    padding: 30px 30px;
+    max-height: 600px;
+}
+
+
+
+
+/* Footer section */
+
+.get-started:hover{
+    background-color: #a52620;
+    transition: 0.3s ease;
+}
+
+.email-block{
+    padding: 20px 8px 20px 20px;
+    border-radius: 3px;
+    background: rgb(15,15,15);
+    opacity: 0.8;
+    border: 1px solid #616161;
+    letter-spacing: inherit;
+    width: 485px;
+}
+
+
+.footer{
+    padding: 0px 0px 96px 0px;
+}
+
+.footer-sign-up{
+    margin-bottom: 4rem;
+}
+
+
+.footer-watch{
+    margin: auto;
+    width: 60%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.footer-layout-container{
+    margin-top: 36px;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: auto;
+    padding-top: 16px;
+}
+
+.questions{
+    padding-left: 12px;
+    margin-top: 36px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 4px;
+}
+
+li{
+    padding-bottom:5px;
+    cursor: pointer;
+    margin: 12px 0px 0px 12px;
+    
+}
+
+a{
+    text-decoration: underline;
+    color: #616161;
+    
+}
+
+
+ul{
+    list-style: none;
+    margin-bottom: 14px;
+    padding: 0px;
+    
+
+}
+
+
+.language{
+    display: flex;
+    padding: 5px;
+    margin: 36px 0px 36px 0px;
+    background-color:black;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: #616161;
+    border: 1px solid #616161;
+    
+}
+
+.material-icons{
+    color: white;
+}
+
+select{
+    line-height: 1.25rem;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+ 
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    width: 642px;
+    align-items: center; 
+    color: #616161;
+    margin-top: 36px;
+}
+    
+
+
+   
+
+
